@@ -1,6 +1,6 @@
 # GCP Serverless Application Boilerplate
 
-Universal serverless application boilerplate for Google Cloud Functions + Pub/Sub + Google Firestore
+Universal serverless application boilerplate for `Google Cloud Functions` + `Pub/Sub` + `Google Firestore`
 
 ## Requirements
 `gcloud` cli utility
