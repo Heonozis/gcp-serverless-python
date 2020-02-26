@@ -9,4 +9,4 @@ def get_document(table, key):
         data = doc_ref.get()
         return data
     except Exception as e:
-        print(f'Error occurred while updating {table} document with key {key} and data {data}: {e}')
+        print(f'Error occurred while getting {table} document with key {key} and data {data}: {e}')
