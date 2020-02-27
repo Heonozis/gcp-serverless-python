@@ -5,9 +5,9 @@ gcp.deploy.common.topics:
 gcp.deploy.common.functions:
 	gcloud functions deploy health_handler --runtime python37 --trigger-topic common.health.requested
 
-dcp.deploy.init:
-	gcp.deploy.common.topics
-	gcp.deploy.common.functions
+gcp.deploy.init:
+	make gcp.deploy.common.topics
+	make gcp.deploy.common.functions
 
-dcp.deploy.update:
-	gcp.deploy.common.functions
+gcp.deploy.update:
+	make gcp.deploy.common.functions
